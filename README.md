@@ -8,6 +8,7 @@
 ## What
 
 **DictionarySlicing** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing an extension to `Dictionary` to convert a dictionary into its slice or into an array of its key-value pairs:
+
 ```swift
 public extension Dictionary {
     func toSlice() -> Dictionary.SubSequence 
@@ -21,10 +22,6 @@ public func toDictionary<K: Hashable, V>(_ kvPairs: [Dictionary<K, V>.Element]) 
 ## Installation
 
 **DictionarySlicing** is provided only as a Swift Package Manager package, because I'm moving away from CocoaPods and Carthage, and can be easily installed directly from Xcode.
-
-## Author
-
-Wagner Truppel, trupwl@gmail.com
 
 ## License
 
